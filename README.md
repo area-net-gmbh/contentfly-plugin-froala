@@ -24,7 +24,7 @@ Download und Entpacken des Froala-Ordners im plugin-Ordner: _plugins/Froala_
 
 **Registrieren des Plugins in der app.php**
 ```
-$app['pluginManager]->register('Froala', 'LIZENZ_KEY');
+$app['pluginManager]->register('Areanet_Froala', 'LIZENZ_KEY');
 ```
 
 ## Konfiguration

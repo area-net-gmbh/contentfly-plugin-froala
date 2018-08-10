@@ -1,8 +1,8 @@
 <?php
-namespace Plugins\Froala;
+namespace Plugins\Areanet_Froala;
 
 use Areanet\PIM\Classes\Plugin;
-use Plugins\Froala\Types\FroalaType;
+use Plugins\Areanet_Froala\Types\FroalaType;
 
 class FroalaPlugin extends Plugin
 {

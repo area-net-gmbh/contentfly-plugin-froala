@@ -1,5 +1,5 @@
 <?php
-namespace Plugins\Froala\Types;
+namespace Plugins\Areanet_Froala\Types;
 
 use Areanet\PIM\Classes\Annotations\Rte;
 use Areanet\PIM\Classes\Type\PluginType;
