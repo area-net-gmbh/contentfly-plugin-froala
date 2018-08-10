@@ -5,7 +5,7 @@
 
 ## Beschreibung
 
-Plugin zur Integration des Froala Editors als RTE im Contentfly CMS: https://www.froala.com/wysiwyg-editor - der Froala Editor ist kostenpflichtig. Ein entsprechender Lizenz-Key muss pro eingesetzter Domain erworben und hinterlegt werden.
+Plugin zur Integration des Froala Editors als RTE im Contentfly CMS: https://www.froala.com/wysiwyg-editor - der Froala Editor ist kostenpflichtig. Ein entsprechender Lizenz-Key muss pro eingesetzter Domain erworben und hinterlegt werden. Ohne Lizenz-Key kann der Editor für Test-/Evaluierungszwecke genutzt weren. Unabhängig davpn gelten die Lizenzbedingungen von https://www.froala.com/wysiwyg-editor/pricing.
 
 Das Plugin ersetzt alle RTE-Properties mit dem Froala-Editor:
 
