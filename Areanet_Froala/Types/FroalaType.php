@@ -7,7 +7,12 @@ use Silex\Application;
 
 class FroalaType extends PluginType
 {
-    const DEFAULT_TOOLBAR = '{ "toolbarButtons": ["paragraphFormat", "align", "quote", "|", "bold", "italic", "strikeThrough", "subscript", "superscript", "|",  "formatOL", "formatUL", "outdent", "indent", "|", "insertLink", "-", "specialCharacters", "selectAll", "clearFormatting", "html", "|", "undo", "redo"], "quickInsertButtons": ["table", "ul", "ol", "hr"]}';
+    const DEFAULT_TOOLBAR = '{ 
+        "toolbarButtons": ["paragraphFormat", "align", "quote", "|", "bold", "italic", "strikeThrough", "subscript", "superscript", "|", "insertTable",  "formatOL", "formatUL", "outdent", "indent", "|", "insertLink", "-", "specialCharacters", "selectAll", "clearFormatting", "html", "|", "undo", "redo"], 
+        "quickInsertButtons": ["table", "ul", "ol", "hr"], 
+        "tableEditButtons": ["tableHeader", "tableRemove", "|", "tableRows", "tableColumns", "-", "tableCells", "tableCellVerticalAlign", "tableCellHorizontalAlign"],
+        "zIndex": 100000
+    }';
 
     protected $key = null;
 

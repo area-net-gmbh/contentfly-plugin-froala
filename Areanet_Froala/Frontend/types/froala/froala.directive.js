@@ -13,7 +13,7 @@
         key: '=', config: '=', value: '=', isValid: '=', isSubmit: '=', onChangeCallback: '&'
       },
       templateUrl: function(){
-        return '/plugins/Froala/types/froala/froala.html?v=400'
+        return '/plugins/Areanet_Froala/types/froala/froala.html?v=400'
       },
       link: function(scope, element, attrs){
         scope.froalaOptions = JSON.parse(scope.config.rteToolbar);
